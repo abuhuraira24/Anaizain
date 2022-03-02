@@ -1,0 +1,15 @@
+.topbar {
+  background: #0000ff;
+  height: 50px;
+  color: #fff;
+  p {
+    line-height: 3rem;
+  }
+  span {
+    line-height: 3rem !important;
+    margin: 0 6px;
+    svg {
+      font-size: 14px;
+    }
+  }
+}

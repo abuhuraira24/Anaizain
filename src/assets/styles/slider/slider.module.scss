@@ -1,0 +1,143 @@
+.sliderBtn {
+  text-align: left;
+  button {
+    font-style: Semi Bold;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 1%;
+    font-weight: 600;
+    border-radius: 500px;
+    background: #633f97;
+    padding: 10px 18px;
+  }
+  button:hover {
+    background: #633f97;
+  }
+  button:focus {
+    background: #633f97;
+  }
+}
+.carousel {
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  .carousel-control-prev {
+    display: none !important;
+  }
+}
+
+//====== Slider feture Items  =======//
+.fetureItems {
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+@media (max-width: 1199px) {
+  .fetureItems {
+    max-width: 33.3% !important;
+  }
+}
+@media (max-width: 992px) {
+  .fetureItems {
+    margin-right: 8px;
+  }
+}
+.feture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  background: #f5f5f5;
+  border-radius: 5px;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 90px;
+  }
+}
+
+.title {
+  height: 54px;
+  padding: 0;
+  margin-bottom: 3.5rem;
+
+  h5 {
+    font-weight: 400;
+    font-size: 15px !important;
+    line-height: 18.15px;
+    letter-spacing: -1.7%;
+    color: #333e48;
+    span {
+      color: #000;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+}
+
+.button {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18.15px;
+  letter-spacing: -1.7%;
+  cursor: pointer;
+  span {
+    margin-right: 4px;
+  }
+  svg {
+    color: #ca000f;
+  }
+}
+
+//====== Slider demo items style =====//
+.sliderDemos {
+  background: #fff;
+  border-radius: 5px;
+  padding: 13px 0;
+  margin-top: 18px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 96.67px;
+
+  h5 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: -1.7%;
+    text-align: center;
+    color: #707070;
+    width: 151px;
+  }
+}
+.demoimg {
+  background: #edf2fd;
+  height: 93px;
+  width: 93px;
+  border-radius: 96.67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  img {
+    width: 65.72px;
+  }
+}
+.demotitle {
+  h5 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: -1.7%;
+    text-align: center;
+    color: #707070;
+  }
+}

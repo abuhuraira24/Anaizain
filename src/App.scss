@@ -1,0 +1,31 @@
+// carosel icon
+
+.carousel-control-prev-icon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: url("../src/assets/images/verified/left.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon {
+  background: none;
+}
+
+.carousel-control-next-icon::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background: url("../src/assets/images/verified/right.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-next-icon {
+  background: none;
+}

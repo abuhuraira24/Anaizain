@@ -1,0 +1,54 @@
+.viewShop {
+  margin: 2rem 0;
+}
+.bgshop {
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+.shopBody {
+  background: #fff;
+}
+.viewShopTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  h5 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+  span {
+    svg {
+      color: red;
+    }
+  }
+}
+
+.item {
+  margin: 24px auto;
+}
+.itemimg {
+  background: #edf2fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 146px;
+  img {
+    width: 145.57px;
+  }
+}
+
+.shopCaption {
+  padding-top: 18px;
+  h5 {
+    font-weight: 700;
+    color: #453b3b;
+    font-size: 15px;
+  }
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #898989;
+  }
+}

@@ -1,0 +1,208 @@
+.footer {
+  padding: 2rem 0;
+}
+footer {
+  background: #474246;
+}
+.searchpanle {
+  border: 1px solid #e2e2e2 !important;
+  border-radius: 25.5px;
+  box-sizing: border-box;
+  height: 51px;
+  background: inherit;
+  overflow: hidden;
+}
+.searchpanle:focus {
+  background: inherit;
+  color: #fff;
+}
+.button {
+  background: #2b88de !important;
+  border-radius: 25.5px !important;
+  border: 1px solid #e2e2e2 !important;
+  border-left: none !important;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 148px;
+  height: 51px;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16.94px;
+  letter-spacing: 2.5%;
+}
+
+.seachbar {
+  margin-top: 2rem;
+  p {
+    margin-top: 1rem;
+    text-align: center;
+    color: #f2f3f7;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.info {
+  color: #ffffff;
+  h5 {
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  ul {
+    li {
+      font-weight: 300;
+      font-size: 14px;
+    }
+  }
+}
+
+.foooterInfo {
+  margin-left: 4rem;
+}
+
+.copyRight {
+  background: #2b88de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    p {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+}
+.turner {
+  background: #e1e1e124;
+  height: 1px;
+  width: 100%;
+  position: relative;
+}
+.turner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 44%;
+  right: 50%;
+  width: 152px;
+  height: 2px;
+  background: #2b88de;
+}
+
+.merketlace {
+  display: flex;
+}
+.playStore {
+  img {
+    max-width: 100%;
+    cursor: pointer;
+  }
+  margin-right: 1rem;
+}
+.appstore {
+  img {
+    max-width: 100%;
+    cursor: pointer;
+  }
+}
+
+.socialIcon {
+  h5 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+}
+
+.policyList {
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+    li {
+      color: #ffffff96;
+      font-size: 11px;
+      font-weight: 400;
+      border-right: 2px solid #e1e1e124;
+      padding: 6px;
+      line-height: 4px;
+      cursor: pointer;
+    }
+    li:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.lang {
+  p {
+    color: #ffffff96;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 6px;
+
+    cursor: pointer;
+  }
+}
+
+.icons {
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  svg {
+    color: #fff;
+    font-size: 18px;
+    margin: 8px;
+    cursor: pointer;
+  }
+}
+
+.largeFooter {
+  display: block;
+}
+
+.footerCaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.smallDevice {
+  background: #474246;
+  display: none;
+}
+
+.copyRight {
+  background: #2b88de;
+  height: 75px;
+  p {
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.footerCaption {
+  margin: 2rem 0;
+  color: #fff;
+  h4 {
+  }
+  ul {
+    margin-top: 1rem;
+    li {
+      text-align: center;
+      cursor: pointer;
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.carosel {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.carselCatopn {
+  text-align: left;
+  h3 {
+    font-weight: 700;
+    font-size: 34px;
+  }
+  p {
+    max-width: 440px;
+    font-weight: 500;
+    line-height: 27.62px;
+    letter-spacing: 1%;
+    margin-bottom: 3rem;
+  }
+  span {
+    font-size: 14px;
+    font-weight: 800;
+    background: #fff;
+    color: #453b3b;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+  }
+}
+
+.items {
+  background: #fcc314;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.itemCation {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  h4 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #ffffff;
+  }
+  p {
+    font-weight: 400;
+    font-size: 21px;
+  }
+}
+
+.item {
+  text-align: center;
+}
+
+.itemImg {
+  color: #fff;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.caption {
+  button {
+    margin-top: 2rem;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2.5%;
+    background: #fff;
+    padding: 15px 28px;
+    color: #453b3b;
+    border-radius: 39px;
+  }
+}
+
+.itemImg {
+  img {
+    max-width: 100%;
+  }
+}
