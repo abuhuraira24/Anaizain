@@ -1,7 +1,6 @@
-// import Layout from "../parts/Layout";
-import ProductDetails from "./ProductDetails";
+import Layout from "../parts/Layout";
 const Home = () => {
-  return <ProductDetails />;
+  return <Layout />;
 };
 
 export default Home;

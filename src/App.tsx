@@ -1,9 +1,9 @@
 import GlobalStyle from "./assets/styles/Globalstyle";
-import ProductDetails from "./pages/ProductDetails";
+import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <ProductDetails />
+      <Home />
       <GlobalStyle />
     </>
   );
